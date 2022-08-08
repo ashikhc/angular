@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { HomeComponent } from './home/home.component';
 import { ProductdetailComponent } from './productdetail/productdetail.component';
+import { DummidataComponent } from './dummidata/dummidata.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProductdetailComponent } from './productdetail/productdetail.component'
     StarratingComponent,
     PagenotfoundComponent,
     HomeComponent,
-    ProductdetailComponent
+    ProductdetailComponent,
+    DummidataComponent
     
   ],
   imports: [
